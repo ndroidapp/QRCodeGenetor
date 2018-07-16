@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
     private ImageView ivQR;
     private String textQr;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
