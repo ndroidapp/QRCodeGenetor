@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         etAddress = findViewById(R.id.etAddress);
         etName = findViewById(R.id.etName);
 
+
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
                 && ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this,
